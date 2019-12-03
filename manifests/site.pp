@@ -14,3 +14,6 @@ node /^web/ {
 node /^db/ {
   include role::db_server
 }
+node /^conf/ { 
+  include role::conf_node
+}
